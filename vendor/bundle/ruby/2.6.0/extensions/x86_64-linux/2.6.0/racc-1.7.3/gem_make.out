@@ -1,0 +1,18 @@
+current directory: /home/deepak/Desktop/work/ERP_application_new/ERP_System/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+/home/deepak/.rvm/rubies/ruby-2.6.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/deepak/Desktop/work/ERP_application_new/ERP_System/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231218-81536-1dx7cy4 sitelibdir\=./.gem.20231218-81536-1dx7cy4 clean
+
+current directory: /home/deepak/Desktop/work/ERP_application_new/ERP_System/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231218-81536-1dx7cy4 sitelibdir\=./.gem.20231218-81536-1dx7cy4
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/deepak/Desktop/work/ERP_application_new/ERP_System/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231218-81536-1dx7cy4 sitelibdir\=./.gem.20231218-81536-1dx7cy4 install
+/usr/bin/install -m 0755 cparse.so ./.gem.20231218-81536-1dx7cy4/racc
+
+current directory: /home/deepak/Desktop/work/ERP_application_new/ERP_System/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231218-81536-1dx7cy4 sitelibdir\=./.gem.20231218-81536-1dx7cy4 clean

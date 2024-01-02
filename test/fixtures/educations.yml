@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  admin_user: one
+  qualification: MyString
+  institute_name: MyString
+  start_year: 2023-12-19
+  end_year: 2023-12-19
+  specialization: MyString
+
+two:
+  admin_user: two
+  qualification: MyString
+  institute_name: MyString
+  start_year: 2023-12-19
+  end_year: 2023-12-19
+  specialization: MyString

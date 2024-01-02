@@ -12,6 +12,7 @@ class AdminUser < ApplicationRecord
          has_many :staff_experiences
          has_many :attendances
          has_many :leaves
+         has_many :salary_slips 
          has_one :employee_types
 
   private

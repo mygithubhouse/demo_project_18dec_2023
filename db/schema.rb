@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_12_24_160215) do
+ActiveRecord::Schema.define(version: 2024_01_02_151111) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -120,6 +120,14 @@ ActiveRecord::Schema.define(version: 2023_12_24_160215) do
     t.index ["department_id"], name: "index_profiles_on_department_id"
   end
 
+  create_table "salary_slips", force: :cascade do |t|
+    t.integer "admin_user_id", null: false
+    t.string "status"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["admin_user_id"], name: "index_salary_slips_on_admin_user_id"
+  end
+
   create_table "staff_experiences", force: :cascade do |t|
     t.string "total_experience"
     t.string "certificate"
@@ -135,5 +143,6 @@ ActiveRecord::Schema.define(version: 2023_12_24_160215) do
   add_foreign_key "leaves", "admin_users"
   add_foreign_key "profiles", "admin_users"
   add_foreign_key "profiles", "departments"
+  add_foreign_key "salary_slips", "admin_users"
   add_foreign_key "staff_experiences", "admin_users"
 end
